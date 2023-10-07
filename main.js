@@ -347,7 +347,7 @@ function startTimer() {
         if (!isBallSplit) {
 // Create two new balls with their positions and speeds
                 const splitSpeed = 2;
-                const angle = math.PI / 4;
+                const angle = Math.PI / 4;
                 const newBall1 = {
                     x: BallX,
                     y: BallY,
